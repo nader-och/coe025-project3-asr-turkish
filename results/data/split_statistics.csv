@@ -1,0 +1,4 @@
+split,speakers,utterances,hours,mean_clip_seconds
+train,25,5909,6.032,3.68
+validation,34,600,0.602,3.61
+test,293,2000,2.494,4.49

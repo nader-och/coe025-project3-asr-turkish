@@ -1,0 +1,12 @@
+{
+  "speaker_overlap": {
+    "train-validation": 0,
+    "train-test": 0,
+    "validation-test": 0
+  },
+  "test_sentences_in_train_used": 11,
+  "test_sentences_in_full_official_train": 29,
+  "validation_sentences_in_train_used": 9,
+  "test_utterances": 2000,
+  "note": "Exact match after the shared normalization (word for word)."
+}

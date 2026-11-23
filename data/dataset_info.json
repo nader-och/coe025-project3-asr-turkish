@@ -1,0 +1,30 @@
+{
+  "name": "Mozilla Common Voice - Turkish (Scripted Speech)",
+  "version": "27.0",
+  "split_mode": "official",
+  "seed": 42,
+  "caps": {
+    "train": 6000,
+    "validation": 600,
+    "test": 2000,
+    "max_clips_per_speaker": 20,
+    "train_max_clips_per_speaker": 250
+  },
+  "full_split_sizes_before_reduction": {
+    "train": {
+      "utterances": 41465,
+      "speakers": 28
+    },
+    "validation": {
+      "utterances": 11864,
+      "speakers": 163
+    },
+    "test": {
+      "utterances": 11874,
+      "speakers": 1500
+    }
+  },
+  "duration_mismatch_over_0.5s": 0,
+  "audio": "decoded with librosa, resampled to 16 kHz mono, saved as 16-bit PCM WAV",
+  "normalization": "tr-norm-v1"
+}
