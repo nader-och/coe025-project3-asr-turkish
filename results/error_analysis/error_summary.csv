@@ -1,0 +1,6 @@
+system,role,turkish_letter,suffix,other,deletion,insertion,word_boundary_only_clips,total_word_errors,suffix_share_of_substitutions,turkish_letter_share_of_substitutions
+qwen3_asr_0.6b,baseline,41,764,1285,373,194,65,2657,0.366,0.02
+seda_rnnt,baseline,9,606,837,265,175,68,1892,0.417,0.006
+wav2vec2_xlsr_tr,baseline,34,1072,1975,434,472,107,3987,0.348,0.011
+wav2vec2_xlsr_tr_finetuned,contribution,28,1161,1686,488,202,78,3565,0.404,0.01
+whisper_small,baseline,29,707,1483,396,283,67,2898,0.319,0.013

@@ -1,0 +1,59 @@
+{
+  "base_model": "m3hrdadfi/wav2vec2-large-xlsr-turkish",
+  "base_revision": "8699cf317b8f9a834ddf192608324ae5bbd191f0",
+  "method": "CTC fine-tuning of all transformer layers and the CTC head; CNN feature encoder frozen",
+  "train_utterances": 5909,
+  "train_hours": 6.032,
+  "validation_utterances": 600,
+  "settings": {
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "batch_size": 8,
+    "gradient_accumulation": 2,
+    "effective_batch": 16,
+    "warmup_ratio": 0.1,
+    "fp16": true,
+    "seed": 42
+  },
+  "characters_not_in_vocab": [
+    "û"
+  ],
+  "oov_character_rate": 3e-05,
+  "validation_by_epoch": [
+    {
+      "epoch": 0,
+      "validation_wer": 0.5073578595317726,
+      "validation_cer": 0.18652021967049426
+    },
+    {
+      "epoch": 1,
+      "validation_wer": 0.4705685618729097,
+      "validation_cer": 0.17733399900149777
+    },
+    {
+      "epoch": 2,
+      "validation_wer": 0.4642140468227425,
+      "validation_cer": 0.17558662006989514
+    },
+    {
+      "epoch": 3,
+      "validation_wer": 0.4588628762541806,
+      "validation_cer": 0.17503744383424863
+    }
+  ],
+  "best_epoch": 3,
+  "best_validation_wer": 0.4588628762541806,
+  "selection_rule": "lowest validation WER; test split not used",
+  "training_minutes": 27.9,
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "torch": "2.14.1+cu130",
+    "transformers": "4.57.6",
+    "jiwer": "installed",
+    "librosa": "0.11.0",
+    "qwen_asr": "installed",
+    "sherpa_onnx": "2.0.3",
+    "gpu": "Tesla T4"
+  }
+}

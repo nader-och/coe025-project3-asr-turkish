@@ -1,0 +1,812 @@
+{
+  "qwen3_asr_0.6b": {
+    "turkish_letter": [
+      {
+        "clip_id": "common_voice_tr_30603572",
+        "reference": "Dışardayken hali vakti yerinde, iki karılı olduğunu söylediği halde, senelerden beri arayan, soran yoktu.",
+        "hypothesis": "Dışarıdakı halı vakti yerinde, iki karılı olduğunu söylediği halde senelerden beri arayan soran yoktu.",
+        "error": "hali -> halı"
+      },
+      {
+        "clip_id": "common_voice_tr_48139584",
+        "reference": "Bu görevinde gösterdiği yetenek ve cesaretinden ötürü Sovyetler Birliği Kahramanı unvanı verildi.",
+        "hypothesis": "Bu görevinde gösterdiği yetenek ve cesaretinden ötürü Sovyetler Birliği kahramanı ünvanı verildi.",
+        "error": "unvanı -> ünvanı"
+      },
+      {
+        "clip_id": "common_voice_tr_30603569",
+        "reference": "Gönül bir sırça saraydır, kırılırsa yapılmaz.",
+        "hypothesis": "Gönül bir sırca saraydır. Kırılırsa yapılmaz.",
+        "error": "sırça -> sırca"
+      },
+      {
+        "clip_id": "common_voice_tr_39749517",
+        "reference": "Sultanbey de bundan sonra Cihan'la evlenmeye hazırdır.",
+        "hypothesis": "Sultan Bey de bundan sonra Cihan'la evlenmeye hazırdir.",
+        "error": "hazırdır -> hazırdir"
+      },
+      {
+        "clip_id": "common_voice_tr_19878362",
+        "reference": "Kosor bekâr bir anne ve iki adet şiir kitabı var.",
+        "hypothesis": "Kosör Beker bir anne ve iki adet şiir kitabı var.",
+        "error": "kosor -> kosör"
+      }
+    ],
+    "suffix": [
+      {
+        "clip_id": "common_voice_tr_17857535",
+        "reference": "Seçimlerde usulsüzlük bildirilmedi.",
+        "hypothesis": "Seçimlere usulsüzlik bildirilmedi.",
+        "error": "seçimlerde -> seçimlere"
+      },
+      {
+        "clip_id": "common_voice_tr_17857535",
+        "reference": "Seçimlerde usulsüzlük bildirilmedi.",
+        "hypothesis": "Seçimlere usulsüzlik bildirilmedi.",
+        "error": "usulsüzlük -> usulsüzlik"
+      },
+      {
+        "clip_id": "common_voice_tr_42457711",
+        "reference": "Berlin Eyalet Başbakanı için çalıştı.",
+        "hypothesis": "Berdin Eyalet Başbakanı için çalıştı.",
+        "error": "berlin -> berdin"
+      },
+      {
+        "clip_id": "common_voice_tr_17639212",
+        "reference": "Proje iki bin on iki yılında hizmete girebililr.",
+        "hypothesis": "Proje 2012 yılında hizmete girebilir.",
+        "error": "girebililr -> girebilir"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "Borlonun kırsa kalına mı kandın tatlı diline mi?",
+        "error": "borlunun -> borlonun"
+      }
+    ],
+    "other": [
+      {
+        "clip_id": "common_voice_tr_18137605",
+        "reference": "Sanatta herşey kendi yerine düşer.",
+        "hypothesis": "Sanatta her şey kendi yerine düşer.",
+        "error": "herşey -> şey"
+      },
+      {
+        "clip_id": "common_voice_tr_17639212",
+        "reference": "Proje iki bin on iki yılında hizmete girebililr.",
+        "hypothesis": "Proje 2012 yılında hizmete girebilir.",
+        "error": "iki -> 2012"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "Borlonun kırsa kalına mı kandın tatlı diline mi?",
+        "error": "sakalına -> kalına"
+      },
+      {
+        "clip_id": "common_voice_tr_17343291",
+        "reference": "Oruçtan sonra Sırplar et yemekleri yiyorlar.",
+        "hypothesis": "Oruçtan sonra sıplar et yemeklerini yiyorlar.",
+        "error": "sırplar -> sıplar"
+      },
+      {
+        "clip_id": "common_voice_tr_28906732",
+        "reference": "Gayrı ölesiye kadar gene böyle tarlada bağda çalışacağız ha!",
+        "hypothesis": "Gayrı ölesiye kadar gene böyle tarla da bağda çalışacağız ha.",
+        "error": "tarlada -> da"
+      }
+    ],
+    "deletion": [
+      {
+        "clip_id": "common_voice_tr_17639212",
+        "reference": "Proje iki bin on iki yılında hizmete girebililr.",
+        "hypothesis": "Proje 2012 yılında hizmete girebilir.",
+        "error": "missing: bin on iki"
+      },
+      {
+        "clip_id": "common_voice_tr_36374474",
+        "reference": "Kırk yedi.",
+        "hypothesis": "Küçüydi.",
+        "error": "missing: yedi"
+      },
+      {
+        "clip_id": "common_voice_tr_33097699",
+        "reference": "Haydi, deniz kenarına bir yere gidip dolaşalım…",
+        "hypothesis": "Haydi dediskenarına bir yere gidip dolaşalım.",
+        "error": "missing: kenarına"
+      },
+      {
+        "clip_id": "common_voice_tr_21318048",
+        "reference": "Yarışmaya yirmi yedi ülkeden şarkıcılar katıldı.",
+        "hypothesis": "Yarışmaya 27 ülkeden şarkıcılar katıldı.",
+        "error": "missing: yedi"
+      },
+      {
+        "clip_id": "common_voice_tr_39927099",
+        "reference": "Genellikle organik bileşiklerin elektron iyonizasyon kütle spektrometresinden tanımlanması için kullanılır.",
+        "hypothesis": "Genellikle organik bileşiklerin elektron iyonizasyon kültülspektrometresinden tanımlanması için kullanılır.",
+        "error": "missing: spektrometresinden"
+      }
+    ],
+    "insertion": [
+      {
+        "clip_id": "common_voice_tr_18137605",
+        "reference": "Sanatta herşey kendi yerine düşer.",
+        "hypothesis": "Sanatta her şey kendi yerine düşer.",
+        "error": "extra: her"
+      },
+      {
+        "clip_id": "common_voice_tr_28906732",
+        "reference": "Gayrı ölesiye kadar gene böyle tarlada bağda çalışacağız ha!",
+        "hypothesis": "Gayrı ölesiye kadar gene böyle tarla da bağda çalışacağız ha.",
+        "error": "extra: tarla"
+      },
+      {
+        "clip_id": "common_voice_tr_31657558",
+        "reference": "Gerçekçi olalım.",
+        "hypothesis": "Gerçek şey olalım.",
+        "error": "extra: gerçek"
+      },
+      {
+        "clip_id": "common_voice_tr_26968913",
+        "reference": "Kımıldayın.",
+        "hypothesis": "Kamil Dayan",
+        "error": "extra: kamil"
+      },
+      {
+        "clip_id": "common_voice_tr_18395538",
+        "reference": "On milletvekili çekimser kaldı.",
+        "hypothesis": "On millet vekili çekim serk aldı.",
+        "error": "extra: millet vekili"
+      }
+    ]
+  },
+  "seda_rnnt": {
+    "turkish_letter": [
+      {
+        "clip_id": "common_voice_tr_24376035",
+        "reference": "Projeyi iki hükümet de finanse edecek.",
+        "hypothesis": "projeyi iki hükumet de finanse edecek",
+        "error": "hükümet -> hükumet"
+      },
+      {
+        "clip_id": "common_voice_tr_21318096",
+        "reference": "Bu uygulama ilk kez yapılmiyor.",
+        "hypothesis": "bu uygulama ilk kez yapılmıyor",
+        "error": "yapılmiyor -> yapılmıyor"
+      },
+      {
+        "clip_id": "common_voice_tr_39927102",
+        "reference": "Bu kurulan partinin ismi daha sonra Toplumcu Kurtuluş Partisi Yeni Güçler olarak değiştirildi.",
+        "hypothesis": "bu kurulan partının ismi daha sonra toplumcu kurtlu partisi yeni güçler olarak değiştirildi",
+        "error": "partinin -> partının"
+      },
+      {
+        "clip_id": "common_voice_tr_20557338",
+        "reference": "Kosova hükümeti de sert tepki verdi.",
+        "hypothesis": "kosova hükumeti de sert tepki vardı",
+        "error": "hükümeti -> hükumeti"
+      },
+      {
+        "clip_id": "common_voice_tr_43561326",
+        "reference": "Açı veya hava sıcaklıkları gibi farklı birçok alanda dereceyi ifade etmek için bu simge kullanılır.",
+        "hypothesis": "acı veya hava sıcaklıkları gibi farklı birçok alanda dereceyi ifade etmek için bu simge kullanılır",
+        "error": "açı -> acı"
+      }
+    ],
+    "suffix": [
+      {
+        "clip_id": "common_voice_tr_17639212",
+        "reference": "Proje iki bin on iki yılında hizmete girebililr.",
+        "hypothesis": "proje iki bin on iki yılında hizmete girebilir",
+        "error": "girebililr -> girebilir"
+      },
+      {
+        "clip_id": "common_voice_tr_18270288",
+        "reference": "AB temsilcileri haberi memnuniyetle karşıladılar.",
+        "hypothesis": "ab temsilcileri haberin memnuniyetle karşıladılar",
+        "error": "haberi -> haberin"
+      },
+      {
+        "clip_id": "common_voice_tr_39730670",
+        "reference": "Sıvı bir formülasyon da mevcuttur.",
+        "hypothesis": "sıvı bir formülasyonda mevcuttur",
+        "error": "formülasyon -> formülasyonda"
+      },
+      {
+        "clip_id": "common_voice_tr_30674459",
+        "reference": "İkisinin de gözleri yaşarmıştı.",
+        "hypothesis": "ikisini de gözleri yaşarmıştı",
+        "error": "ikisinin -> ikisini"
+      },
+      {
+        "clip_id": "common_voice_tr_38146996",
+        "reference": "Burada her şey yolunda.",
+        "hypothesis": "burada her şeyin yolunda",
+        "error": "şey -> şeyin"
+      }
+    ],
+    "other": [
+      {
+        "clip_id": "common_voice_tr_18137605",
+        "reference": "Sanatta herşey kendi yerine düşer.",
+        "hypothesis": "sanatta her şey kendi yerine düşer",
+        "error": "herşey -> şey"
+      },
+      {
+        "clip_id": "common_voice_tr_28906732",
+        "reference": "Gayrı ölesiye kadar gene böyle tarlada bağda çalışacağız ha!",
+        "hypothesis": "gayrı öğlesiye kadar gene böyle tarlada bağda çalışacağız ha",
+        "error": "ölesiye -> öğlesiye"
+      },
+      {
+        "clip_id": "common_voice_tr_30603572",
+        "reference": "Dışardayken hali vakti yerinde, iki karılı olduğunu söylediği halde, senelerden beri arayan, soran yoktu.",
+        "hypothesis": "dışarıdayken hali vakti yerinde iki karılı olduğunu söylediği halde senelerden beri arayan soran yoktu",
+        "error": "dışardayken -> dışarıdayken"
+      },
+      {
+        "clip_id": "common_voice_tr_38406381",
+        "reference": "Burası müşterilerini savmış bir gazinoya benziyordu.",
+        "hypothesis": "burası müşterilerini sarmış bir gazinoya benziyordu",
+        "error": "savmış -> sarmış"
+      },
+      {
+        "clip_id": "common_voice_tr_43603505",
+        "reference": "Ayrıca kurulan Kızıl Muhafızlar kısa süre sonra sosyal-demokrat güvenlik birlikleri içinde eridiler.",
+        "hypothesis": "ayrıca kurulan kızıl muhafızlar kısa süre sonra sosyal demokrat güvenlik birlikleri içinde er ucu da",
+        "error": "eridiler -> da"
+      }
+    ],
+    "deletion": [
+      {
+        "clip_id": "common_voice_tr_39730670",
+        "reference": "Sıvı bir formülasyon da mevcuttur.",
+        "hypothesis": "sıvı bir formülasyonda mevcuttur",
+        "error": "missing: da"
+      },
+      {
+        "clip_id": "common_voice_tr_40341037",
+        "reference": "Batı yakası sahilinin eşcinsel içerikli ilk yazılı eserlerinin ilk dalgasının önemli yazarlarındandır.",
+        "hypothesis": "batı hın seyretti ilk yazılısırların tavgasının önünde yazarlarındandır",
+        "error": "missing: eşcinsel içerikli"
+      },
+      {
+        "clip_id": "common_voice_tr_40341037",
+        "reference": "Batı yakası sahilinin eşcinsel içerikli ilk yazılı eserlerinin ilk dalgasının önemli yazarlarındandır.",
+        "hypothesis": "batı hın seyretti ilk yazılısırların tavgasının önünde yazarlarındandır",
+        "error": "missing: dalgasının önemli"
+      },
+      {
+        "clip_id": "common_voice_tr_36701273",
+        "reference": "Bu adreste alt yapı görünmüyor daha önce internet kullanımı sağlamış mıydınız?",
+        "hypothesis": "bu adreste altyapı görünmüyor daha önce internet kullanını sağlamış mıydınız",
+        "error": "missing: yapı"
+      },
+      {
+        "clip_id": "common_voice_tr_39769931",
+        "reference": "Seri şu anda her biri iki segment içeren kırk yarım saatlik bölüm için üretiliyor.",
+        "hypothesis": "serin şu anda her biriksekmentçeren kırık yerim ya saatlik bölüm için üretiliyor",
+        "error": "missing: kırk yarım"
+      }
+    ],
+    "insertion": [
+      {
+        "clip_id": "common_voice_tr_18137605",
+        "reference": "Sanatta herşey kendi yerine düşer.",
+        "hypothesis": "sanatta her şey kendi yerine düşer",
+        "error": "extra: her"
+      },
+      {
+        "clip_id": "common_voice_tr_43603505",
+        "reference": "Ayrıca kurulan Kızıl Muhafızlar kısa süre sonra sosyal-demokrat güvenlik birlikleri içinde eridiler.",
+        "hypothesis": "ayrıca kurulan kızıl muhafızlar kısa süre sonra sosyal demokrat güvenlik birlikleri içinde er ucu da",
+        "error": "extra: er ucu"
+      },
+      {
+        "clip_id": "common_voice_tr_38146998",
+        "reference": "Sağol, kalsın.",
+        "hypothesis": "sağ ol kalsın",
+        "error": "extra: sağ"
+      },
+      {
+        "clip_id": "common_voice_tr_18290489",
+        "reference": "İki madende iki bin beş yüzden fazla kişi çalışıyor.",
+        "hypothesis": "iki maden de iki bin beş yüzden fazla kişi çalışıyor",
+        "error": "extra: maden"
+      },
+      {
+        "clip_id": "common_voice_tr_23660893",
+        "reference": "Hayatta küçük şeyleri kovalıyor ve yine küçük şeyler için birbirimizi incitiyoruz.",
+        "hypothesis": "için hatta küçük şeyler için birbiri bir şeyleri kovalıyor ve yine küçük şeyler için birbirimizi inciltiyoruz",
+        "error": "extra: için"
+      }
+    ]
+  },
+  "wav2vec2_xlsr_tr": {
+    "turkish_letter": [
+      {
+        "clip_id": "common_voice_tr_27356116",
+        "reference": "Hayır, onu görmemiştim.",
+        "hypothesis": "hayir onu görmem iştim",
+        "error": "hayır -> hayir"
+      },
+      {
+        "clip_id": "common_voice_tr_26084120",
+        "reference": "Güreşçi olarak yetenekleri sınırlıydı.",
+        "hypothesis": "dreşçi olarak hetenekleri sınırliydı",
+        "error": "sınırlıydı -> sınırliydı"
+      },
+      {
+        "clip_id": "common_voice_tr_37181599",
+        "reference": "Suyun yanından geçip gidermiş, bir de ne görsün:",
+        "hypothesis": "suyunyanından geçip lidermiş bir de ne gorsun",
+        "error": "görsün -> gorsun"
+      },
+      {
+        "clip_id": "common_voice_tr_43561582",
+        "reference": "Çözülen kireç taşlarındaki kırıklar genişlemiş ve yer altından geçen bir su kanalı oluşmuştur.",
+        "hypothesis": "çözine kileç taşırarındaki kırıklar genişlemiş ve yer altından gecen bir sukanalı oluşmuştur",
+        "error": "geçen -> gecen"
+      },
+      {
+        "clip_id": "common_voice_tr_31657557",
+        "reference": "Doğruyu söyle.",
+        "hypothesis": "doğruğu soyle",
+        "error": "söyle -> soyle"
+      }
+    ],
+    "suffix": [
+      {
+        "clip_id": "common_voice_tr_18137605",
+        "reference": "Sanatta herşey kendi yerine düşer.",
+        "hypothesis": "sanatda herşey kendi yerine düşer",
+        "error": "sanatta -> sanatda"
+      },
+      {
+        "clip_id": "common_voice_tr_42457711",
+        "reference": "Berlin Eyalet Başbakanı için çalıştı.",
+        "hypothesis": "berden eyalet başbakanı için çalıştı",
+        "error": "berlin -> berden"
+      },
+      {
+        "clip_id": "common_voice_tr_17639212",
+        "reference": "Proje iki bin on iki yılında hizmete girebililr.",
+        "hypothesis": "proje iki bin on iki yılında hizmete girebilir",
+        "error": "girebililr -> girebilir"
+      },
+      {
+        "clip_id": "common_voice_tr_28906732",
+        "reference": "Gayrı ölesiye kadar gene böyle tarlada bağda çalışacağız ha!",
+        "hypothesis": "gair öylesiye kadar gene böyle tarnada bağda çalışacağa saha",
+        "error": "çalışacağız -> çalışacağa"
+      },
+      {
+        "clip_id": "common_voice_tr_48139584",
+        "reference": "Bu görevinde gösterdiği yetenek ve cesaretinden ötürü Sovyetler Birliği Kahramanı unvanı verildi.",
+        "hypothesis": "bu görevinde gösterdiy yetenek ve cezaretinden ötürü soviyetler birliği kahramanı iumvanı verildi",
+        "error": "gösterdiği -> gösterdiy"
+      }
+    ],
+    "other": [
+      {
+        "clip_id": "common_voice_tr_17857535",
+        "reference": "Seçimlerde usulsüzlük bildirilmedi.",
+        "hypothesis": "seçimlerde ulusözsözlük bildirilmedi",
+        "error": "usulsüzlük -> ulusözsözlük"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk saka una mı kandın tatla d iline mi",
+        "error": "borlunun -> kırk"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk saka una mı kandın tatla d iline mi",
+        "error": "kır -> saka"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk saka una mı kandın tatla d iline mi",
+        "error": "sakalına -> una"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk saka una mı kandın tatla d iline mi",
+        "error": "tatlı -> d"
+      }
+    ],
+    "deletion": [
+      {
+        "clip_id": "common_voice_tr_30773194",
+        "reference": "Onun için şimdi denize atılmış görünüp satılan portakallarını o boşaltmıyordu.",
+        "hypothesis": "onun için şimdi denizatılmış görünüp satılam portakallarına oboş altmıyordu",
+        "error": "missing: atılmış"
+      },
+      {
+        "clip_id": "common_voice_tr_33097699",
+        "reference": "Haydi, deniz kenarına bir yere gidip dolaşalım…",
+        "hypothesis": "haylinderi iskenarrına bir yere gilip doluşalım",
+        "error": "missing: kenarına"
+      },
+      {
+        "clip_id": "common_voice_tr_39730670",
+        "reference": "Sıvı bir formülasyon da mevcuttur.",
+        "hypothesis": "sıvı bir formulasyonda mayacutdur",
+        "error": "missing: mevcuttur"
+      },
+      {
+        "clip_id": "common_voice_tr_28090057",
+        "reference": "Maria bu akşam garip denilecek kadar çok neşeliydi.",
+        "hypothesis": "maria bu alkışam galivlenilecek kadar çok nüşeliydi",
+        "error": "missing: denilecek"
+      },
+      {
+        "clip_id": "common_voice_tr_30674390",
+        "reference": "Lanet oIsun!",
+        "hypothesis": "lanetoz",
+        "error": "missing: oısun"
+      }
+    ],
+    "insertion": [
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk saka una mı kandın tatla d iline mi",
+        "error": "extra: borlonun"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk saka una mı kandın tatla d iline mi",
+        "error": "extra: tatla"
+      },
+      {
+        "clip_id": "common_voice_tr_19596422",
+        "reference": "Romanya bin icat sundu.",
+        "hypothesis": "romanya bin icat sundu nn",
+        "error": "extra: nn"
+      },
+      {
+        "clip_id": "common_voice_tr_30674459",
+        "reference": "İkisinin de gözleri yaşarmıştı.",
+        "hypothesis": "i kisinin de gözleri yaşarmıştı",
+        "error": "extra: i"
+      },
+      {
+        "clip_id": "common_voice_tr_29944231",
+        "reference": "Ölüydü.",
+        "hypothesis": "ölü güttü",
+        "error": "extra: ölü"
+      }
+    ]
+  },
+  "wav2vec2_xlsr_tr_finetuned": {
+    "turkish_letter": [
+      {
+        "clip_id": "common_voice_tr_37181599",
+        "reference": "Suyun yanından geçip gidermiş, bir de ne görsün:",
+        "hypothesis": "suun yanından geçip gidermiş birde ne görsun",
+        "error": "görsün -> görsun"
+      },
+      {
+        "clip_id": "common_voice_tr_43561582",
+        "reference": "Çözülen kireç taşlarındaki kırıklar genişlemiş ve yer altından geçen bir su kanalı oluşmuştur.",
+        "hypothesis": "çözüne kileç taşrarındaki kırıklar genişlemiş ve yer altından gecen bir sukanalı oluşmuştur",
+        "error": "geçen -> gecen"
+      },
+      {
+        "clip_id": "common_voice_tr_37179808",
+        "reference": "Bilhassa hayatı bu kadarcık olsun gördükten sonra yeknesak mesai seni boğar.",
+        "hypothesis": "bil hassa hayatı bu kadarçık olsun yördükten sonra yeknesak mesajesini bu ar",
+        "error": "kadarcık -> kadarçık"
+      },
+      {
+        "clip_id": "common_voice_tr_17425667",
+        "reference": "Birçok yorumcu da aynı görüşü dile getirdi.",
+        "hypothesis": "birçok yörümcu da aynı görüşdile getirdi",
+        "error": "yorumcu -> yörümcu"
+      },
+      {
+        "clip_id": "common_voice_tr_18200069",
+        "reference": "Kosova'da altı hafta önce nüfus sayımı yapıldı.",
+        "hypothesis": "kosovada altı hafta önce nüfüs sayımı yapıldı",
+        "error": "nüfus -> nüfüs"
+      }
+    ],
+    "suffix": [
+      {
+        "clip_id": "common_voice_tr_18137605",
+        "reference": "Sanatta herşey kendi yerine düşer.",
+        "hypothesis": "sanatda herşey kendi yerne düşer",
+        "error": "sanatta -> sanatda"
+      },
+      {
+        "clip_id": "common_voice_tr_18137605",
+        "reference": "Sanatta herşey kendi yerine düşer.",
+        "hypothesis": "sanatda herşey kendi yerne düşer",
+        "error": "yerine -> yerne"
+      },
+      {
+        "clip_id": "common_voice_tr_42457711",
+        "reference": "Berlin Eyalet Başbakanı için çalıştı.",
+        "hypothesis": "berden eyalet başbakanı için çalıştı",
+        "error": "berlin -> berden"
+      },
+      {
+        "clip_id": "common_voice_tr_17639212",
+        "reference": "Proje iki bin on iki yılında hizmete girebililr.",
+        "hypothesis": "proje iki bin on iki yılında hizmete girebilir",
+        "error": "girebililr -> girebilir"
+      },
+      {
+        "clip_id": "common_voice_tr_28906732",
+        "reference": "Gayrı ölesiye kadar gene böyle tarlada bağda çalışacağız ha!",
+        "hypothesis": "gair öylesiye kadar gene böyle tarnıda bağda çalışacağı sah",
+        "error": "çalışacağız -> çalışacağı"
+      }
+    ],
+    "other": [
+      {
+        "clip_id": "common_voice_tr_17857535",
+        "reference": "Seçimlerde usulsüzlük bildirilmedi.",
+        "hypothesis": "seçimlerde ulsözsüzlük bildirilmedi",
+        "error": "usulsüzlük -> ulsözsüzlük"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk sakağ una mı kandın tatla d iline mi",
+        "error": "borlunun -> kırk"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk sakağ una mı kandın tatla d iline mi",
+        "error": "kır -> sakağ"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk sakağ una mı kandın tatla d iline mi",
+        "error": "sakalına -> una"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk sakağ una mı kandın tatla d iline mi",
+        "error": "tatlı -> d"
+      }
+    ],
+    "deletion": [
+      {
+        "clip_id": "common_voice_tr_30773194",
+        "reference": "Onun için şimdi denize atılmış görünüp satılan portakallarını o boşaltmıyordu.",
+        "hypothesis": "onun için şimdi denizatılmış görünüp satılam portakallarına oboş altmıyordu",
+        "error": "missing: atılmış"
+      },
+      {
+        "clip_id": "common_voice_tr_33097699",
+        "reference": "Haydi, deniz kenarına bir yere gidip dolaşalım…",
+        "hypothesis": "haylider isken arına biryere gidip doluşalım",
+        "error": "missing: yere"
+      },
+      {
+        "clip_id": "common_voice_tr_28090057",
+        "reference": "Maria bu akşam garip denilecek kadar çok neşeliydi.",
+        "hypothesis": "mariya bu alkışam galiblenilecek kadar çok nışeliydi",
+        "error": "missing: denilecek"
+      },
+      {
+        "clip_id": "common_voice_tr_39591625",
+        "reference": "Saray kayıtlarında buna Ak Ağalar başı' da deniyordu.",
+        "hypothesis": "saray kayıtlarında buna ak ağlar başıda deniyordu",
+        "error": "missing: da"
+      },
+      {
+        "clip_id": "common_voice_tr_40341037",
+        "reference": "Batı yakası sahilinin eşcinsel içerikli ilk yazılı eserlerinin ilk dalgasının önemli yazarlarındandır.",
+        "hypothesis": "batyakıssailine de hintel ceretti bilk yazı ezerlenin ilk albasını nönünde yazarlarındandır",
+        "error": "missing: eserlerinin"
+      }
+    ],
+    "insertion": [
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk sakağ una mı kandın tatla d iline mi",
+        "error": "extra: borlonun"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": "borlonun kırk sakağ una mı kandın tatla d iline mi",
+        "error": "extra: tatla"
+      },
+      {
+        "clip_id": "common_voice_tr_31657558",
+        "reference": "Gerçekçi olalım.",
+        "hypothesis": "garçekşi ol alın",
+        "error": "extra: garçekşi"
+      },
+      {
+        "clip_id": "common_voice_tr_36374464",
+        "reference": "Bunun niçin böyle yapıldığını size söylemediler mi?",
+        "hypothesis": "bunun ni için böyle yapıldığını sizi söylemediler mi",
+        "error": "extra: ni"
+      },
+      {
+        "clip_id": "common_voice_tr_39749519",
+        "reference": "Bıyık Abdullah öldükten sonra Paşa dağının üzerine kurulu olan karargâh epey bir zaman devam etmiştir.",
+        "hypothesis": "bıyı kaptullah öldükten sonra paşadağının üzerine kurlu olan karar gah epey bir zaman devam etmişter",
+        "error": "extra: karar"
+      }
+    ]
+  },
+  "whisper_small": {
+    "turkish_letter": [
+      {
+        "clip_id": "common_voice_tr_48139584",
+        "reference": "Bu görevinde gösterdiği yetenek ve cesaretinden ötürü Sovyetler Birliği Kahramanı unvanı verildi.",
+        "hypothesis": " Bu görevinde gösterdiği yetenek ve cesaretinden ötürü Sovyetler Birliği Kahramanı Ünvanı verildi.",
+        "error": "unvanı -> ünvanı"
+      },
+      {
+        "clip_id": "common_voice_tr_39749519",
+        "reference": "Bıyık Abdullah öldükten sonra Paşa dağının üzerine kurulu olan karargâh epey bir zaman devam etmiştir.",
+        "hypothesis": " Biyik Abdullah öldükten sonra Paşa'dan üzerine kuru olan Karargah epey bir zaman devam etmişler.",
+        "error": "bıyık -> biyik"
+      },
+      {
+        "clip_id": "common_voice_tr_36374476",
+        "reference": "Akademi'ye yayıldı, hatta bazı çabuk tesirler göstermekte de gecikmedi.",
+        "hypothesis": " Akademiye yayıldı. Hatta bazı çabuk tesirler göstermekte de geçikmedi.",
+        "error": "gecikmedi -> geçikmedi"
+      },
+      {
+        "clip_id": "common_voice_tr_37900169",
+        "reference": "Kısa ökçeli kahverengi iskarpinleri kaldırımlarda maharetle sekiyordu.",
+        "hypothesis": " kısa ökceli kahverengi iskarpinleri kaldırımlarda maharetle sekiyordu.",
+        "error": "ökçeli -> ökceli"
+      },
+      {
+        "clip_id": "common_voice_tr_21318096",
+        "reference": "Bu uygulama ilk kez yapılmiyor.",
+        "hypothesis": " Bu uygulama ilk kez yapılmıyor.",
+        "error": "yapılmiyor -> yapılmıyor"
+      }
+    ],
+    "suffix": [
+      {
+        "clip_id": "common_voice_tr_17639212",
+        "reference": "Proje iki bin on iki yılında hizmete girebililr.",
+        "hypothesis": " Projey 2012 yılında hizmete girebilir.",
+        "error": "proje -> projey"
+      },
+      {
+        "clip_id": "common_voice_tr_17639212",
+        "reference": "Proje iki bin on iki yılında hizmete girebililr.",
+        "hypothesis": " Projey 2012 yılında hizmete girebilir.",
+        "error": "girebililr -> girebilir"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": " Borlon'un kırk sakalına mı kendin? Tatlı diline mi?",
+        "error": "borlunun -> borlonun"
+      },
+      {
+        "clip_id": "common_voice_tr_38113334",
+        "reference": "Borlunun kır sakalına mı kandın, tatlı diline mi?",
+        "hypothesis": " Borlon'un kırk sakalına mı kendin? Tatlı diline mi?",
+        "error": "kır -> kırk"
+      },
+      {
+        "clip_id": "common_voice_tr_17343291",
+        "reference": "Oruçtan sonra Sırplar et yemekleri yiyorlar.",
+        "hypothesis": " Oruçtan sonra sıplar et yemeklerini yiyorlar.",
+        "error": "yemekleri -> yemeklerini"
+      }
+    ],
+    "other": [
+      {
+        "clip_id": "common_voice_tr_18137605",
+        "reference": "Sanatta herşey kendi yerine düşer.",
+        "hypothesis": " Sanatla her şey kendi yerine düşer.",
+        "error": "sanatta -> her"
+      },
+      {
+        "clip_id": "common_voice_tr_18137605",
+        "reference": "Sanatta herşey kendi yerine düşer.",
+        "hypothesis": " Sanatla her şey kendi yerine düşer.",
+        "error": "herşey -> şey"
+      },
+      {
+        "clip_id": "common_voice_tr_17857535",
+        "reference": "Seçimlerde usulsüzlük bildirilmedi.",
+        "hypothesis": " seçimlerde o söz sözlük bildirilmedi.",
+        "error": "usulsüzlük -> sözlük"
+      },
+      {
+        "clip_id": "common_voice_tr_42457711",
+        "reference": "Berlin Eyalet Başbakanı için çalıştı.",
+        "hypothesis": " Berlin Eyerlet Başbakanı için çalıştı.",
+        "error": "eyalet -> eyerlet"
+      },
+      {
+        "clip_id": "common_voice_tr_17639212",
+        "reference": "Proje iki bin on iki yılında hizmete girebililr.",
+        "hypothesis": " Projey 2012 yılında hizmete girebilir.",
+        "error": "iki -> 2012"
+      }
+    ],
+    "deletion": [
+      {
+        "clip_id": "common_voice_tr_17639212",
+        "reference": "Proje iki bin on iki yılında hizmete girebililr.",
+        "hypothesis": " Projey 2012 yılında hizmete girebilir.",
+        "error": "missing: bin on iki"
+      },
+      {
+        "clip_id": "common_voice_tr_21318048",
+        "reference": "Yarışmaya yirmi yedi ülkeden şarkıcılar katıldı.",
+        "hypothesis": " Yerişmeye 27 ülkeden şarkıcılar katıldı.",
+        "error": "missing: yedi"
+      },
+      {
+        "clip_id": "common_voice_tr_39591625",
+        "reference": "Saray kayıtlarında buna Ak Ağalar başı' da deniyordu.",
+        "hypothesis": " Saray kayıtlarında buna ak ağalar başıda deniyordu.",
+        "error": "missing: da"
+      },
+      {
+        "clip_id": "common_voice_tr_19593436",
+        "reference": "Projenin değeri yaklaşık altı yüz elli bin avro.",
+        "hypothesis": " Projenin değeri yaklaşık 650 bin Avro.",
+        "error": "missing: yüz elli"
+      },
+      {
+        "clip_id": "common_voice_tr_37181567",
+        "reference": "Acı bana.",
+        "hypothesis": " Acıbana",
+        "error": "missing: bana"
+      }
+    ],
+    "insertion": [
+      {
+        "clip_id": "common_voice_tr_18137605",
+        "reference": "Sanatta herşey kendi yerine düşer.",
+        "hypothesis": " Sanatla her şey kendi yerine düşer.",
+        "error": "extra: sanatla"
+      },
+      {
+        "clip_id": "common_voice_tr_17857535",
+        "reference": "Seçimlerde usulsüzlük bildirilmedi.",
+        "hypothesis": " seçimlerde o söz sözlük bildirilmedi.",
+        "error": "extra: o söz"
+      },
+      {
+        "clip_id": "common_voice_tr_29944231",
+        "reference": "Ölüydü.",
+        "hypothesis": " Ölü de",
+        "error": "extra: ölü"
+      },
+      {
+        "clip_id": "common_voice_tr_26968913",
+        "reference": "Kımıldayın.",
+        "hypothesis": " Kamil dayın.",
+        "error": "extra: kamil"
+      },
+      {
+        "clip_id": "common_voice_tr_40341037",
+        "reference": "Batı yakası sahilinin eşcinsel içerikli ilk yazılı eserlerinin ilk dalgasının önemli yazarlarındandır.",
+        "hypothesis": " Batıya Kısa haliyle de şimdiki çerikli bir ilk yazıl eserlerinin ilk dalgasının önünde yazarlarındandır.",
+        "error": "extra: batıya kısa"
+      }
+    ]
+  }
+}

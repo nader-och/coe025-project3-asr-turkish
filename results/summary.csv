@@ -1,0 +1,6 @@
+tag,role,model,revision,family,base_model,wer,cer,wer_ci_low,wer_ci_high,substitutions,deletions,insertions,reference_words,utterances,speakers,empty_hypotheses,rtf,gpu
+qwen3_asr_0.6b,baseline,Qwen/Qwen3-ASR-0.6B,5eb144179a02,pretrained ASR checkpoint (Qwen3-ASR),,0.2261084163049953,0.07000675385276602,0.2140148909499661,0.239134840218095,2090,373,194,11751,2000,293,0,0.0573,Tesla T4
+seda_rnnt,baseline,atasoglu/seda-v0.1,5cbbda1b34bd,"transducer (Zipformer2 RNN-T, streaming)",,0.1610075738235044,0.04603671639958249,0.14874150870377822,0.17463971606664538,1452,265,175,11751,2000,293,0,0.0724,Tesla T4
+wav2vec2_xlsr_tr,baseline,m3hrdadfi/wav2vec2-large-xlsr-turkish,8699cf317b8f,wav2vec 2.0 + CTC head,,0.339290273168241,0.07382575059863695,0.31088144619280755,0.3684129448455824,3081,434,472,11751,2000,293,0,0.0211,Tesla T4
+wav2vec2_xlsr_tr_finetuned,contribution,results/checkpoints/wav2vec2_finetuned/best,local,wav2vec 2.0 + CTC head,m3hrdadfi/wav2vec2-large-xlsr-turkish,0.3033784358777976,0.0653404555780684,0.2754219858599805,0.3318341940118899,2875,488,202,11751,2000,293,0,0.0211,Tesla T4
+whisper_small,baseline,openai/whisper-small,973afd24965f,attention encoder-decoder (Whisper),,0.24661730916517743,0.08073923988457052,0.2294017817120193,0.2646790796359329,2219,396,283,11751,2000,293,0,0.0164,Tesla T4

@@ -1,0 +1,13 @@
+{
+  "identical_test_clips": true,
+  "paired_comparisons": [
+    {
+      "contribution": "wav2vec2_xlsr_tr_finetuned",
+      "baseline": "wav2vec2_xlsr_tr",
+      "delta_wer": -0.035911837290443366,
+      "ci_low": -0.04321307850700307,
+      "ci_high": -0.028823635847706107,
+      "matched_clips": 2000
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Same transformers/accelerate versions that qwen-asr requires, so one environment runs every model.
+transformers==4.57.6
+accelerate==1.12.0
+torch>=2.3.0
+huggingface_hub>=0.34
+jiwer>=3.0.4
+librosa>=0.10.2
+soundfile>=0.12.1
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+tabulate>=0.9.0
+python-pptx>=1.0.0
+# Baselines with their own runtime (installed in the notebook):
+#   qwen-asr      Qwen3-ASR
+#   sherpa-onnx   seda v0.1 transducer

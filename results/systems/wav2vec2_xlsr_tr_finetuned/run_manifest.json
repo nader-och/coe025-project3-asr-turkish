@@ -1,0 +1,36 @@
+{
+  "tag": "wav2vec2_xlsr_tr_finetuned",
+  "model": "results/checkpoints/wav2vec2_finetuned/best",
+  "revision": "local",
+  "family": "wav2vec 2.0 + CTC head",
+  "role": "contribution",
+  "training_by_group": "fine-tuned by our group on our training split (see results/training/)",
+  "settings": {
+    "decoding": "greedy CTC (argmax, collapse repeats, remove blanks)",
+    "batch_size": 16,
+    "dtype": "float32"
+  },
+  "inference_seconds": 189.586166426001,
+  "base_model": "m3hrdadfi/wav2vec2-large-xlsr-turkish",
+  "split": "test",
+  "dataset": {
+    "name": "Mozilla Common Voice - Turkish (Scripted Speech)",
+    "version": "27.0",
+    "split_mode": "official",
+    "seed": 42
+  },
+  "normalization": "tr-norm-v1",
+  "scoring": "jiwer corpus-level WER/CER on normalized text",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "torch": "2.14.1+cu130",
+    "transformers": "4.57.6",
+    "jiwer": "installed",
+    "librosa": "0.11.0",
+    "qwen_asr": "installed",
+    "sherpa_onnx": "2.0.3",
+    "gpu": "Tesla T4"
+  },
+  "created": "2026-11-22 22:51:40"
+}
