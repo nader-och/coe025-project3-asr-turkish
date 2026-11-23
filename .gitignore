@@ -1,0 +1,27 @@
+# Dataset audio (Common Voice terms: do not re-host the audio)
+data/common_voice_tr/
+data/wav16k/
+data/**/*.mp3
+data/**/*.wav
+*.tar.gz
+
+# Model checkpoints
+results/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
