@@ -1,0 +1,10 @@
+family,checkpoint_or_method,turkish_support,status,evidence_or_reason
+Attention encoder-decoder,openai/whisper-small,yes (multilingual; not a .en checkpoint),run,https://huggingface.co/openai/whisper-small
+wav2vec 2.0 + CTC head (CTC encoder),m3hrdadfi/wav2vec2-large-xlsr-turkish,yes (fine-tuned for Turkish ASR),run,https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-turkish
+Transducer (RNN-T),atasoglu/seda-v0.1,yes (Turkish-only Zipformer2 transducer),run,https://huggingface.co/atasoglu/seda-v0.1
+Pretrained ASR checkpoint,Qwen/Qwen3-ASR-0.6B,yes (Turkish in the supported language list),run,https://huggingface.co/Qwen/Qwen3-ASR-0.6B
+Pretrained ASR checkpoint,nvidia/canary-1b-v2,no (25 European languages; Turkish not listed),not_supported,https://huggingface.co/nvidia/canary-1b-v2
+Pretrained ASR checkpoint,nvidia/parakeet-tdt-0.6b-v3,no (25 European languages; Turkish not listed),not_supported,https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
+HuBERT + CTC head,no Turkish HuBERT + CTC checkpoint found,not available,not_run,HuBERT-TR (Safaya & Erzin 2022) is not on the authors' Hugging Face page (https://huggingface.co/asafaya); a bare HuBERT encoder has no ASR head and cannot transcribe
+Classical,MFCC + GMM-HMM,possible only if we train it,not_run,No ready Turkish GMM-HMM system; needs a Turkish lexicon and a Kaldi recipe; not implemented in the time available
+Hybrid CTC/attention,no Turkish checkpoint identified,not verified,not_run,No Turkish hybrid CTC/attention checkpoint with a model card was identified; Whisper represents the attention encoder-decoder family

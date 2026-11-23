@@ -1,0 +1,25 @@
+{
+  "wer": 0.24661730916517743,
+  "cer": 0.08073923988457052,
+  "mer": 0.24081768323084593,
+  "wil": 0.38967803144555824,
+  "substitutions": 2219,
+  "deletions": 396,
+  "insertions": 283,
+  "hits": 9136,
+  "reference_words": 11751,
+  "char_substitutions": 2795,
+  "char_deletions": 2668,
+  "char_insertions": 1112,
+  "reference_characters": 81435,
+  "wer_ci95": [
+    0.2294017817120193,
+    0.2646790796359329
+  ],
+  "utterances": 2000,
+  "speakers": 293,
+  "empty_hypotheses": 0,
+  "audio_hours": 2.4937,
+  "inference_seconds": 147.13,
+  "rtf": 0.0164
+}

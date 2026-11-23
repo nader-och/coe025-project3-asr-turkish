@@ -1,0 +1,44 @@
+{
+  "openai/whisper-small": {
+    "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+    "role": "attention encoder-decoder (multilingual, not .en)",
+    "last_modified": "2024-02-29 10:57:38+00:00",
+    "url": "https://huggingface.co/openai/whisper-small/tree/973afd24965f72e36ca33b3055d56a652f456b4d"
+  },
+  "m3hrdadfi/wav2vec2-large-xlsr-turkish": {
+    "revision": "8699cf317b8f9a834ddf192608324ae5bbd191f0",
+    "role": "wav2vec 2.0 + CTC head, fine-tuned for Turkish",
+    "last_modified": "2021-07-06 11:07:44+00:00",
+    "url": "https://huggingface.co/m3hrdadfi/wav2vec2-large-xlsr-turkish/tree/8699cf317b8f9a834ddf192608324ae5bbd191f0"
+  },
+  "Qwen/Qwen3-ASR-0.6B": {
+    "revision": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+    "role": "pretrained ASR checkpoint (Qwen3-ASR)",
+    "last_modified": "2026-01-30 03:00:21+00:00",
+    "url": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B/tree/5eb144179a02acc5e5ba31e748d22b0cf3e303b0"
+  },
+  "Qwen/Qwen3-ASR-1.7B": {
+    "revision": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+    "role": "pretrained ASR checkpoint (Qwen3-ASR, optional larger size)",
+    "last_modified": "2026-01-30 03:00:12+00:00",
+    "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B/tree/7278e1e70fe206f11671096ffdd38061171dd6e5"
+  },
+  "atasoglu/seda-v0.1": {
+    "revision": "5cbbda1b34bde5e3004e79b137dc3871587ea282",
+    "role": "transducer (streaming Zipformer2 RNN-T)",
+    "last_modified": "2026-10-13 18:01:25+00:00",
+    "url": "https://huggingface.co/atasoglu/seda-v0.1/tree/5cbbda1b34bde5e3004e79b137dc3871587ea282"
+  },
+  "nvidia/canary-1b-v2": {
+    "revision": "d455706339a6b32e1aa40f82c713a482a0c938e2",
+    "role": "not run: Turkish not in the model card language list",
+    "last_modified": "2026-08-31 19:01:49+00:00",
+    "url": "https://huggingface.co/nvidia/canary-1b-v2/tree/d455706339a6b32e1aa40f82c713a482a0c938e2"
+  },
+  "nvidia/parakeet-tdt-0.6b-v3": {
+    "revision": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b",
+    "role": "not run: Turkish not in the model card language list",
+    "last_modified": "2026-08-05 21:46:17+00:00",
+    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3/tree/541d1f99c6b0c3cd0b11a95167540bb8edefd82b"
+  }
+}

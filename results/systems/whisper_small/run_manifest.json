@@ -1,0 +1,37 @@
+{
+  "tag": "whisper_small",
+  "model": "openai/whisper-small",
+  "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "family": "attention encoder-decoder (Whisper)",
+  "role": "baseline",
+  "training_by_group": "none (zero-shot)",
+  "settings": {
+    "language": "turkish",
+    "task": "transcribe",
+    "num_beams": 1,
+    "batch_size": 16,
+    "dtype": "torch.float16"
+  },
+  "inference_seconds": 147.13181466600008,
+  "split": "test",
+  "dataset": {
+    "name": "Mozilla Common Voice - Turkish (Scripted Speech)",
+    "version": "27.0",
+    "split_mode": "official",
+    "seed": 42
+  },
+  "normalization": "tr-norm-v1",
+  "scoring": "jiwer corpus-level WER/CER on normalized text",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "torch": "2.14.1+cu130",
+    "transformers": "4.57.6",
+    "jiwer": "installed",
+    "librosa": "0.11.0",
+    "qwen_asr": "installed",
+    "sherpa_onnx": "2.0.3",
+    "gpu": "Tesla T4"
+  },
+  "created": "2026-11-22 20:28:28"
+}

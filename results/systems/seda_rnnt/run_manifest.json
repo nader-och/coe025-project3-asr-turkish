@@ -1,0 +1,37 @@
+{
+  "tag": "seda_rnnt",
+  "model": "atasoglu/seda-v0.1",
+  "revision": "5cbbda1b34bde5e3004e79b137dc3871587ea282",
+  "family": "transducer (Zipformer2 RNN-T, streaming)",
+  "role": "baseline",
+  "training_by_group": "none (zero-shot)",
+  "settings": {
+    "decoding": "greedy_search",
+    "language_model": "none",
+    "threads": 2,
+    "runtime": "sherpa-onnx CPU, int8",
+    "tail_padding_seconds": 0.8
+  },
+  "inference_seconds": 649.9004524960001,
+  "split": "test",
+  "dataset": {
+    "name": "Mozilla Common Voice - Turkish (Scripted Speech)",
+    "version": "27.0",
+    "split_mode": "official",
+    "seed": 42
+  },
+  "normalization": "tr-norm-v1",
+  "scoring": "jiwer corpus-level WER/CER on normalized text",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "torch": "2.14.1+cu130",
+    "transformers": "4.57.6",
+    "jiwer": "installed",
+    "librosa": "0.11.0",
+    "qwen_asr": "installed",
+    "sherpa_onnx": "2.0.3",
+    "gpu": "Tesla T4"
+  },
+  "created": "2026-11-22 20:54:15"
+}
